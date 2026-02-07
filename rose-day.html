@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Rose Day ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #ff758c, #ff7eb3, #ffe0e9);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      animation: fadeIn 1s ease;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      text-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    p {
+      font-size: 1.15rem;
+      max-width: 750px;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 14px 34px;
+      border: none;
+      border-radius: 40px;
+      background: linear-gradient(135deg, #fff, #ffe6ec);
+      color: #ff4d6d;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.08);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+    }
+    .rose {
+      font-size: 5rem;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-18px); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    img {
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+    img:hover {
+      transform: scale(1.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Rose Day 🌹<br><span style="font-size:1.2rem;opacity:0.9;">For Mohini ❤️</span></h1>
+    <div class="rose">🌹</div>
+    <p>
+  Kuchh baatein lafzon ki mohtaaj nahi hoti 🌹
+</p>
+    <p>
+      Har subah jab yeh gulab khilta hai, woh yaad dilata hai ki pyaar sirf kehne
+      se nahi, mehsoos karane se hota hai. Tumhari har ek baat, har ek muskaan,
+      aur har ek chhoti si aadat meri zindagi ko aur khoobsurat bana deti hai.
+    </p>
+    <p>
+      Har rang ka gulab apni ek kahani kehta hai —
+      <b>Laal</b> pyaar ke liye ❤️,
+      <b>Pink</b> care ke liye 💗,
+      <b>White</b> trust ke liye 🤍,
+      <b>Yellow</b> dosti aur khushi ke liye 💛.
+      Aaj main yeh sab ehsaas ek saath tumhe dena chahta hoon.
+    </p>
+    <p>
+      Tum meri zindagi ka woh hissa ho jiske bina sab adhoora lagta hai.
+      Tumhara saath meri himmat hai, tumhari hansi meri taqat,
+      aur tumhari maujoodgi meri sabse badi khushi.
+    </p>
+    <p>
+      Yeh Rose Day sirf ek din nahi,
+      balki ek vaada hai —
+      hamesha tumhara saath dene ka,
+      tumhari izzat karne ka,
+      aur har mushkil mein tumhare saath khade rehne ka.
+    </p>
+    <p>
+      Dua hai ki hamari kahani bhi is gulab ki tarah
+      har din aur zyada khilti rahe,
+      aur hamara rishta waqt ke saath
+      aur bhi gehra hota jaye 🌹
+    </p>
+    <button onclick="showMessage()">Ek Chhota Surprise 💖</button>
+    <footer>Made with ❤️ for someone special</footer>
+  <button onclick="openPage(1)">Aage Badhne ke liye Click karo 😄➡️</button>
+  </div>  <!-- Page 2 -->  <div class="container" id="page2" style="display:none;">
+    <h1>Thoda Funny Ho Jaye 😜</h1>
+    <p>
+      Tum itni cute ho ki agar cuteness bhi WiFi hota,
+      to poori duniya tumse connect ho jaati 📶😂
+    </p>
+    <p>
+      Warning ⚠️: Is page ko dekhne ke baad
+      tumhe thodi si hasi aur thodi si sharam aa sakti hai 😄❤️
+    </p>
+    <button onclick="openPage(2)">Aur Aage 😍</button>
+  </div>  <!-- Page 3 -->  <div class="container" id="page3" style="display:none;">
+    <h1>Ab Thoda Romantic 💖</h1>
+    <p>
+      Agar main lafzon mein bataun to kam padega,
+      par phir bhi kehna chahta hoon —
+      tum meri zindagi ka sabse khoobsurat hissa ho 🌹
+    </p>
+    <p>
+      Tumhari ek muskaan mere hazaar dard mita sakti hai,
+      aur tumhara saath meri har jeet ka raaz hai ❤️
+    </p>
+    <button onclick="openPage(3)">Last Surprise 🌹</button>
+  </div>  <!-- Page 4 -->  <div class="container" id="page4" style="display:none;">
+    <h1>Sirf Tumhare Liye 💝</h1>
+    <p>
+      Yeh website sirf ek gift nahi,
+      balki mere dil ka ek chhota sa hissa hai 💗
+    </p>
+    <p>
+      Ab thoda sa tumhari khoobsurti ka jadoo dekho ✨
+    </p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;max-width:700px;">
+  <img src="gf1.jpg" style="width:100%;border-radius:20px;" />
+  <img src="gf2.jpg" style="width:100%;border-radius:20px;" />
+  <img src="gf3.jpg" style="width:100%;border-radius:20px;" />
+</div>
+
+<p style="margin-top:20px;">
+  Har photo mein ek alag si kahani hai,
+  aur har kahani meri favourite hai ❤️
+</p>
+
+<p><b>— Satyam ke dwara 🌹</b></p>
+
+  </div>  <script>
+    function openPage(num) {
+      document.querySelectorAll('.container').forEach(c => c.style.display = 'none');
+      if (num === 1) document.getElementById('page2').style.display = 'flex';
+      if (num === 2) document.getElementById('page3').style.display = 'flex';
+      if (num === 3) document.getElementById('page4').style.display = 'flex';
+    }
+
+
+    function showMessage() {
+      alert("You are as beautiful and special as this rose 🌹 Happy Rose Day!");
+    }
+  </script></body>
+</html>
